@@ -16,7 +16,7 @@ namespace OHMValueCalculatorTest
         [Test]
         public void checkForValuesGivenInAllBandsTest1()
         {
-            OhmValueCalculator.Classes.OhmValueCalculator calculator = new OhmValueCalculator.Classes.OhmValueCalculator();
+            OhmValueCalculator.Classes.OhmValueCalculatorHelperClass calculator = new OhmValueCalculator.Classes.OhmValueCalculatorHelperClass();
             var res = calculator.CalculateOhmValue("Orange", "Brown", "Black", "Red");
             Assert.AreEqual(res,31);
 
@@ -26,7 +26,7 @@ namespace OHMValueCalculatorTest
         [Test]
         public void checkForValuesGivenInAllBandsTest2()
         {
-            OhmValueCalculator.Classes.OhmValueCalculator calculator = new OhmValueCalculator.Classes.OhmValueCalculator();
+            OhmValueCalculator.Classes.OhmValueCalculatorHelperClass calculator = new OhmValueCalculator.Classes.OhmValueCalculatorHelperClass();
             var res = calculator.CalculateOhmValue("Green", "Yellow", "Gold", "Red");
             Assert.AreEqual(res, 5.4);
 
@@ -36,7 +36,7 @@ namespace OHMValueCalculatorTest
         [Test]
         public void checkForToleranceBandNone()
         {
-            OhmValueCalculator.Classes.OhmValueCalculator calculator = new OhmValueCalculator.Classes.OhmValueCalculator();
+            OhmValueCalculator.Classes.OhmValueCalculatorHelperClass calculator = new OhmValueCalculator.Classes.OhmValueCalculatorHelperClass();
             var res = calculator.CalculateOhmValue("Green", "Yellow", "Gold", "None");
             Assert.AreEqual(res, 79);
 
@@ -46,7 +46,7 @@ namespace OHMValueCalculatorTest
         [Test]
         public void checkForIsNullTest()
         {
-            OhmValueCalculator.Classes.OhmValueCalculator calculator = new OhmValueCalculator.Classes.OhmValueCalculator();
+            OhmValueCalculator.Classes.OhmValueCalculatorHelperClass calculator = new OhmValueCalculator.Classes.OhmValueCalculatorHelperClass();
             var res = calculator.CalculateOhmValue("Red","Yellow","Green","Blue");
             Assert.IsNotNull(res);
 

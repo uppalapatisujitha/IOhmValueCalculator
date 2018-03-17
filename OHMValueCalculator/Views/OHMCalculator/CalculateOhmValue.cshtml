@@ -1,0 +1,33 @@
+﻿@model  OHMValueCalculator.Models.OHMCalculatorModel
+@{
+    ViewBag.Title = "Calculate Ohm Value";
+}
+
+<h2>CalculateOhmValue</h2>
+
+<div style="margin-top:20px">
+
+    <div class="form-group">
+        @Html.Label("Band A")
+        @Html.DropDownListFor(m => m.bandASelectedValue, new SelectList(Model.bandA, "Value", "Text"), new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Band B")
+        @Html.DropDownListFor(m => m.bandBSelectedValue, new SelectList(Model.bandB, "Value", "Text"), new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Band Multiplier")
+        @Html.DropDownListFor(m => m.bandCSelectedValue, new SelectList(Model.bandC, "Value", "Text"), new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Band Tolerance")
+        @Html.DropDownListFor(m => m.bandDSelectedValue, new SelectList(Model.bandD, "Value", "Text"), new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Calculated OHM Value")
+        @Html.TextBoxFor(m => m.calculatedOhmValue, new { @disabled = true })
+    </div>
+    <input type="submit" value="Calculate" />
+
+</div>

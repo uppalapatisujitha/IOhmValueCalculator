@@ -50,6 +50,5 @@ c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMVal
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\bin\Microsoft.Owin.Security.Google.xml
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\obj\Debug\OHMValueCalculator.csprojResolveAssemblyReference.cache
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\obj\Debug\OHMValueCalculator.dll
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\obj\Debug\OHMValueCalculator.pdb
