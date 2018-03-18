@@ -16,7 +16,7 @@ namespace OHMValueCalculator
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "OHMCalculatorController", action = "CalculateOhmValue", id = UrlParameter.Optional }
+                defaults: new { controller = "OHMCalculator", action = "CalculateOhmValue", id = UrlParameter.Optional }
             );
         }
     }

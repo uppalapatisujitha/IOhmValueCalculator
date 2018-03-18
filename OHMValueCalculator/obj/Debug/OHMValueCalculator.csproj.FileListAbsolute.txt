@@ -52,3 +52,4 @@ c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMVal
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\obj\Debug\OHMValueCalculator.dll
 c:\users\kd776mr\documents\visual studio 2013\Projects\OHMValueCalculator\OHMValueCalculator\obj\Debug\OHMValueCalculator.pdb
+C:\Users\KD776MR\Documents\Visual Studio 2013\Projects\OhmValueCalculator\OHMValueCalculator\obj\Debug\OHMValueCalculator.csprojResolveAssemblyReference.cache
